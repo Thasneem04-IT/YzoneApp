@@ -1,50 +1,59 @@
 {
   "animateLoading": true,
+  "backgroundColor": "{{}}",
+  "borderColor": "#231f20",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 61,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
-  "fontStyle": "BOLD",
+  "fontSize": "1rem",
+  "fontStyle": "",
   "isLoading": false,
   "isVisible": true,
-  "key": "ija17l0wr3",
-  "leftColumn": 1.5,
+  "key": "s4b7u83ykb",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 1.5,
-  "mobileRightColumn": 25.5,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 30,
   "needsErrorInfo": false,
-  "originalBottomRow": 5,
-  "originalTopRow": 1,
+  "originalBottomRow": 63,
+  "originalTopRow": 59,
   "overflow": "NONE",
-  "parentId": "vgocko7kax",
+  "parentColumnSpace": 14.125,
+  "parentId": "ltb91pp3zt",
+  "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 25.5,
+  "rightColumn": 18,
   "shouldTruncate": false,
-  "text": "QUIZ",
+  "text": "{{appsmith.store.currentResponses[\"What motivates you to do your best at work?\"]}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 57,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "p6xcaz9qqp",
-  "widgetName": "Text1"
+  "widgetId": "xc0ac9rocl",
+  "widgetName": "Text16"
 }

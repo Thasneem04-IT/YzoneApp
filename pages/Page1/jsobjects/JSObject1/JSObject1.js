@@ -1,5 +1,5 @@
 export default {
-	Button3onClick () {
-		
-	}
-}
+  initializeIndex: async () => {
+    await storeValue("currentIndex", 0);
+  }
+};

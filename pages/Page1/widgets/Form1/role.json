@@ -4,7 +4,7 @@
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 33,
-  "boxShadow": "none",
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "defaultText": "",
   "dynamicBindingPathList": [
     {
@@ -46,7 +46,7 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 63,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "topRow": 23,
