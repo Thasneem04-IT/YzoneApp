@@ -76,7 +76,7 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "retrieve",
     "pageId": "Page1",
     "userSetOnLoad": false

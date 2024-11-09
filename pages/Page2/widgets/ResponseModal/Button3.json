@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 72,
+  "bottomRow": 69,
   "boxShadow": "none",
   "buttonColor": "#2a94e5",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -10,15 +10,23 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
     }
   ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
-  "isDisabled": false,
+  "isDisabled": "{{\n  !(score1.text && score2.text && score3.text && score4.text && score5.text)\n}}",
   "isLoading": false,
   "isVisible": true,
   "key": "xi9o3ze749",
-  "leftColumn": 47,
+  "leftColumn": 46,
   "minWidth": 120,
   "mobileBottomRow": 22,
   "mobileLeftColumn": 47,
@@ -33,9 +41,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 61,
+  "rightColumn": 60,
   "text": "Scored All",
-  "topRow": 68,
+  "topRow": 65,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "0yrv4z7y0c",

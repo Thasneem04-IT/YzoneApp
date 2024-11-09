@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 55,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -47,9 +47,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "showStepArrows": false,
-  "topRow": 39,
+  "topRow": 51,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "cwub9ks18b",
-  "widgetName": "Input2Copy1"
+  "widgetId": "o5s3ca1kte",
+  "widgetName": "score5"
 }
